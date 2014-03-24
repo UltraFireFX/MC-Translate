@@ -1,0 +1,29 @@
+name: Default
+main: me.ultrafirefx.Package.Plugin
+version: 1.0.0
+author: UltraFireFX
+
+commands:
+  command1:
+    description: Does stuff!
+    aliases: cmd1
+    permission: plugin.command1
+    usage: Syntax error! /plugin command arg1 arg2!
+
+permissions:
+  plugin.*
+    description: Blah
+    default: false
+    children:
+      plugin.permission1: true
+      plugin.permission2: true
+      plugin.permission3: true
+  plugin.permission1: true
+    description: Blah, blah
+    default: true
+  plugin.permission2: true
+    decription: Blah, blah, blah
+    default: false
+  plugin.permission3: true
+    description: Blah, blah, blah, blah
+    default: false

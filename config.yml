@@ -1,0 +1,14 @@
+configVersion: 1.0.0
+
+DefaultValues:
+  defaultLang:English
+  defaultItallic:true
+  defaultBold:false
+  defaultUnderlined:false
+  
+PlayerData:
+  UltraFireFX:
+    lang:English
+    itallic:true
+    bold:false
+    underlined:false
