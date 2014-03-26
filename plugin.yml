@@ -1,4 +1,4 @@
-name: MC Translate
+name: MCTranslate
 main: me.ultrafirefx.MCTranslate.Main
 version: 1.0.0
 author: UltraFireFX
@@ -11,19 +11,19 @@ commands:
     usage: Syntax error! /plugin command arg1 arg2!
 
 permissions:
-  plugin.*
+  mctranslate.*
     description: Blah
     default: false
     children:
       plugin.permission1: true
       plugin.permission2: true
       plugin.permission3: true
-  plugin.permission1: true
+  mctranslate.permission1: true
     description: Blah, blah
     default: true
-  plugin.permission2: true
+  mctranslate.permission2: true
     decription: Blah, blah, blah
     default: false
-  plugin.permission3: true
+  mctranslate.permission3: true
     description: Blah, blah, blah, blah
     default: false
